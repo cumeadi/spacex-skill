@@ -1,0 +1,20 @@
+{
+  "name": "spacex-skill",
+  "owner": {
+    "name": "Chika",
+    "url": "https://github.com/cumeadi"
+  },
+  "metadata": {
+    "description": "SpaceX: lateral ideation followed by a sober mission-control debrief",
+    "version": "3.0.0"
+  },
+  "plugins": [
+    {
+      "name": "spacex",
+      "description": "Lateral ideation on a real problem in the voice of a stoned epiphany, then a sober debrief that keeps only ideas that are both sound and new.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/spacex"]
+    }
+  ]
+}
